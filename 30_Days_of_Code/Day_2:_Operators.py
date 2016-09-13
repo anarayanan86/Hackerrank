@@ -1,6 +1,6 @@
 # Task 
-# Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of
-# the meal price being added as tax) for a meal, find and print the meal's total cost.
+# Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the
+# percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
 
 # Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
 
@@ -13,7 +13,8 @@
 
 # Output Format
 
-# Print The total meal cost is totalCost dollars., where totalCost is the rounded integer result of the entire bill (mealCost with added tax and tip).
+# Print The total meal cost is totalCost dollars., where totalCost is the rounded integer result of the entire bill (mealCost with
+# added tax and tip).
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 mealCost = float(raw_input())

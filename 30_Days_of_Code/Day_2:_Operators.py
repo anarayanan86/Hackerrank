@@ -25,4 +25,4 @@ tip_cost = (tipPercent/100.)* mealCost
 tax_cost = (taxPercent/100.)* mealCost
 totalCost = int(round(mealCost + tip_cost + tax_cost))
 
-print "The total meal cost is", totalCost, "dollars" 
+print "The total meal cost is", totalCost, "dollars." 

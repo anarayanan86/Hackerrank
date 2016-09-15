@@ -12,7 +12,7 @@
 
 # Output Format
 # Print 10 lines of output; each line i (where 1 <= i <= 10) contains the result of N * i in the form: 
-N x i = result.
+# N x i = result.
 
 #!/bin/python
 

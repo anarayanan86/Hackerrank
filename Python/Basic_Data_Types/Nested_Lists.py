@@ -7,8 +7,8 @@
 
 # Input Format
 # The first line contains an integer, N, the number of students. 
-# The 2N subsequent lines describe each student over 2 lines; the first line contains a student's name, and the second line contains their
-# grade.
+# The 2N subsequent lines describe each student over 2 lines; the first line contains a student's name, and the second line contains
+# their grade.
 
 # Constraints
 # 2 <= N <= 5

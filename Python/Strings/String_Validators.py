@@ -45,7 +45,7 @@
 
 # Task
 # You are given a string S. 
-# Your task is to find out if the string  contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase
+# Your task is to find out if the string S contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase
 # characters.
 
 # Input Format

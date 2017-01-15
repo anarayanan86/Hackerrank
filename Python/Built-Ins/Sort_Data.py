@@ -12,9 +12,9 @@
 # The last line contains K.
 
 # Constraints
-1 <= N, M <= 1000
-0 <= K < M
-Each element <= 1000
+# 1 <= N, M <= 1000
+# 0 <= K < M
+# Each element <= 1000
 
 # Output Format
 # Print the N lines of the sorted table. Each line should contain the space separated elements. Check the sample below for clarity.

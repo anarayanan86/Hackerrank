@@ -3,7 +3,6 @@
 # This challenge is only for Python 2.
 
 # input()
-
 # In Python 2, the expression input() is equivalent to eval(raw _input(prompt)).
 
 # Code

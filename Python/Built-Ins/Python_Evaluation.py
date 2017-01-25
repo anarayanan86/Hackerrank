@@ -9,7 +9,8 @@
 # >>> x = 2
 # >>> eval("x + 3")
 # 5
-# Here, eval() can also be used to work with Python keywords or defined functions and variables. These would normally be stored as strings.
+# Here, eval() can also be used to work with Python keywords or defined functions and variables. These would normally be stored as
+# strings.
 
 # For example:
 # >>> type(eval("len"))

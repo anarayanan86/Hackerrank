@@ -26,7 +26,7 @@ In this challenge, you must read 3 integers from stdin and then print them to st
 the problem a little easier, a portion of the code is provided for you in the editor below.
 
 Input Format
-There are 3 lines of input, and each line contains a single integer.
+There are 3 lines of input, and each line contains a single integer. */
 
 
 import java.util.*;

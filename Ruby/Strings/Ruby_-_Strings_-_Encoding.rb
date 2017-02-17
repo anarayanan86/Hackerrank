@@ -6,9 +6,9 @@
 # my_empty_string = String.new # create an empty string
 # my_copied_string = String.new(my_string) # copy a string to a new variable
 
-# Until Ruby 1.8, Strings were nothing but a collection of bytes. Data was indexed by byte count, size was in terms of number of bytes, and
-# so on. Since Ruby 1.9, Strings have additional encoding information attached to the bytes which provides information on how to interpret
-# them. For example, this code:
+# Until Ruby 1.8, Strings were nothing but a collection of bytes. Data was indexed by byte count, size was in terms of number of bytes,
+# and so on. Since Ruby 1.9, Strings have additional encoding information attached to the bytes which provides information on how to
+# interpret them. For example, this code:
 # str = "With ♥!"
 # print("My String's encoding: ", str.encoding.name) 
 # print("\nMy String's size: ", str.size)
@@ -45,4 +45,4 @@
 def transcode(str)
     str = str.force_encoding(Encoding::UTF_8)
     return str
-end    
+end

@@ -46,9 +46,13 @@
 # Print the averages of all students on separate lines.
 # The averages must be correct up to 1 decimal place.
 
+from __future__ import print_function
+
+import sys
+raw_input = input if sys.version_info.major == 3 else raw_input
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-a = map(int, raw_input().split())
+a = list(map(int, raw_input().split()))
 b = [map(float, raw_input().split()) for i in range(a[1])]
 for i in zip(*b):
-    print sum(i)/a[1]
+    print(sum(i)/a[1])

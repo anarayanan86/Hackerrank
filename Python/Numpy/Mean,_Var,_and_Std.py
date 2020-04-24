@@ -55,11 +55,12 @@
 # Second, print the var. 
 # Third, print the std.
 
-
 import numpy
+numpy.set_printoptions(sign=' ')
+n, m = map(int, input().split())
+a = numpy.array([input().split() for _ in range(n)], float)
+print(numpy.mean(a, axis = 1)) 
+print (numpy.var(a, axis = 0))
+print(numpy.around(numpy.std(a), 12))
 
-a = map(int, raw_input().split())
-b = numpy.array([raw_input().split() for i in range(a[0])], int)
-print numpy.mean(b, axis = 1)
-print numpy.var(b, axis = 0)
-print numpy.std(b, axis = None)
+

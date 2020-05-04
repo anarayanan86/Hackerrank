@@ -35,10 +35,10 @@
 
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-N = int(raw_input())
+N = int(input())
 a = []
 for i in range(N):
-    a.append(raw_input().split())
+    a.append(input().split())
 for j in range(len(a)):
     try:
         print int(a[j][0])//int(a[j][1])

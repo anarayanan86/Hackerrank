@@ -29,10 +29,10 @@ import java.io.*;
 
     public class Solution {
 
-        public static void main(String[] args) {
+        public static void main(String[] args) throws Exception {
 
-            Scanner sc=new Scanner(System.in);
-            int n=sc.nextInt();            
+           BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(br.readLine());     
             String ans="";
             if(n%2==1){
               ans = "Weird";

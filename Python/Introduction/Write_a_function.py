@@ -38,3 +38,8 @@ def is_leap(year):
     
 year = int(raw_input())
 print is_leap(year)
+
+# What about eriting in this way. It is short and working.
+
+year = int(input("Enter a year: ")) 
+print(year%4==0 and not year%100==0 or year%4==0 and year%100==0 and year%400==0)

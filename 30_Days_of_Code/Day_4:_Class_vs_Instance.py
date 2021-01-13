@@ -46,7 +46,7 @@ class Person:
         # Do some computations in here and print out the correct statement to the console
         if self.age < 13:
             print "You are young."
-        elif self.age >= 13 and self.age < 18:
+        elif self.age in range(13,18):
             print "You are a teenager."
         else:
             print "You are old."

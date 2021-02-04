@@ -41,6 +41,9 @@
 import numpy
 
 A = numpy.array(raw_input().split(), float)
+#this line below just maintain the gaps between 'char' of array ----
+numpy.set_printoptions(legacy='1.13')
+#use it as it is ...you will get ...challange done ----
 print numpy.floor(A)
 print numpy.ceil(A)
 print numpy.rint(A)

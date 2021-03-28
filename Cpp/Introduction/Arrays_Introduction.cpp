@@ -30,7 +30,8 @@ Print the N integers of the array in the reverse order in a single line separate
 using namespace std;
 
 
-int main() {
+int main() 
+{
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int N;
     cin >> N;

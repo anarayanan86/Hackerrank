@@ -13,8 +13,14 @@
 # Print the two lines as described above.
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-a = int(raw_input())
-b = int(raw_input())
-
-print a / b
-print float(a) / b
+# We have to make raw_input a variable to run the code or it says that raw_input is not defined so just run your code once before submitting
+#raw_input = input
+# if we not use raw_input then also we can use input and make the code run and make your code smaller
+#a = int(raw_input())
+#b = int(raw_input())
+a = int(input())
+b = int(input())
+print(a // b)
+print(a / b)
+# If we use '//' sign it will not make the output come in decimal or float 
+# I have commented the code which you can use if you want but I will recommend you to make your code smaller and more easy to write 

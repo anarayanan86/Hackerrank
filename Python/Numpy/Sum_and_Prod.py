@@ -11,9 +11,8 @@
 # Output Format
 # Compute the sum along axis 0. Then, print the product of that sum.
 
-
 import numpy
 
-N_M = map(int, raw_input().split())
-a = numpy.array([map(int, raw_input().split()) for i in range(N_M[0])])
-print numpy.prod(numpy.sum(a, axis = 0))
+N, M = map(int, input().split())
+A = numpy.array([input().split() for _ in range(N)], int)
+print(numpy.prod(numpy.sum(A, axis=0), axis=0))

@@ -31,15 +31,19 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
-    int N;
-    cin >> N;
-    int arr[N];
-    for (int i = 0; i < N; i++) {
-        cin >> arr[i];        
+    int n;
+    std::cin>>n;
+    int *arr=new int[n] ;
+    // cin >> n;
+    for(int i=0;i<=n;i++)
+    {
+        cin >> arr[i];
     }
-    for (int j = N - 1; j >= 0; j--) {
-        cout << arr[j] << " ";
-    }
+    
+    for(int i=n-1;i>=0;i--)
+    {
+        cout<<arr[i]<<" ";
+    } 
     return 0;
 }
+

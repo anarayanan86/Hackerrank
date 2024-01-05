@@ -7,4 +7,4 @@
 # calling the method range? (which we have defined for you as a method for this example) on a and passing b and c as arguments.
 
 # write your code here
-a.range?(b, c)
+a.between?(b, c)
